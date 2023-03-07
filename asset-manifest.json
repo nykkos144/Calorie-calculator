@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Calorie-calculator/static/css/main.3aba15c7.css",
-    "main.js": "/Calorie-calculator/static/js/main.4177e3d1.js",
+    "main.js": "/Calorie-calculator/static/js/main.adb16fa6.js",
     "static/media/Gilroy-Thin.ttf": "/Calorie-calculator/static/media/Gilroy-Thin.28f856b7c4b3d473e0d1.ttf",
     "static/media/Gilroy-UltraLight.ttf": "/Calorie-calculator/static/media/Gilroy-UltraLight.768c44ec57dc827381b3.ttf",
     "static/media/Gilroy-Light.ttf": "/Calorie-calculator/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
@@ -37,10 +37,10 @@
     "static/media/bg.svg": "/Calorie-calculator/static/media/bg.b547e467b8d914fb268a64cb18f292ae.svg",
     "static/media/menu.svg": "/Calorie-calculator/static/media/menu.3be22729b6c623d212e7ec49272beda2.svg",
     "main.3aba15c7.css.map": "/Calorie-calculator/static/css/main.3aba15c7.css.map",
-    "main.4177e3d1.js.map": "/Calorie-calculator/static/js/main.4177e3d1.js.map"
+    "main.adb16fa6.js.map": "/Calorie-calculator/static/js/main.adb16fa6.js.map"
   },
   "entrypoints": [
     "static/css/main.3aba15c7.css",
-    "static/js/main.4177e3d1.js"
+    "static/js/main.adb16fa6.js"
   ]
 }
