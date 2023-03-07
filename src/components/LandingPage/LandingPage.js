@@ -63,9 +63,9 @@ const LandingPage = () => {
 
     const helper = {
         'Sedentary': 1.2,
-        'Lightly Exercise': 1.375,
-        'Moderate Exercise': 1.55,
-        'Heavy Exercise': 1.725,
+        'Light exercise': 1.375,
+        'Moderate exercise': 1.55,
+        'Heavy exercise': 1.725,
         'Athlete': 1.9
     }
     const helperBG = {
@@ -81,7 +81,7 @@ const LandingPage = () => {
                 : (10 * weight[0]) + (6.25 * height[0]) - (5 * age) - 161)
 
     // const rmr = (10 * weight[0]) + (6.25 * height[0]) - (5 * age) + 5;
-    const rmrU = Math.round(rmr * helper[activity])
+    let rmrU = Math.round(rmr * helper[activity])
 
     const gj = (gender === 0 ? 
                 48 + 1.1 * (height[0] - 152)
@@ -147,6 +147,7 @@ const LandingPage = () => {
 
 
     const [macro, setMacro] = useState(0);
+
 
 
     if (lang === 'en') {
@@ -241,7 +242,7 @@ const LandingPage = () => {
                                         </div>
                                     </div> */}
                                     <div className={'select main ' + (open === 1 ? 'open ' : '')}>
-                                        <label>{ activity }</label>
+                                        <label>{ activity.toLowerCase().charAt(0).toUpperCase() }</label>
                                         <div className='s-arr' onClick={() => setOpen((open !== 1 ? 1 : null))}>
                                             <img src={ arr_down } />
                                         </div>
