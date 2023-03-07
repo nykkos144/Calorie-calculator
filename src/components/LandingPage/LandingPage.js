@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-unused-vars */
 import React, { Component, useState, useEffect } from 'react';
 
 import './LandingPage.css';
