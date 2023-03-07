@@ -242,7 +242,7 @@ const LandingPage = () => {
                                         </div>
                                     </div> */}
                                     <div className={'select main ' + (open === 1 ? 'open ' : '')}>
-                                        <label>{ activity.toLowerCase().charAt(0).toUpperCase() }</label>
+                                        <label>{ activity }</label>
                                         <div className='s-arr' onClick={() => setOpen((open !== 1 ? 1 : null))}>
                                             <img src={ arr_down } />
                                         </div>
