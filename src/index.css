@@ -1,13 +1,200 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-UltraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy/ttf/Gilroy-Black.ttf');
+  font-weight: 900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ------------------------------------- */
+
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Thin.woff2');
+  font-weight: 100;
 }
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-UltraLight.woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Light.woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Medium.woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-SemiBold.woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Bold.woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-ExtraBold.woff2');
+  font-weight: 800;
+}
+@font-face {
+  font-family: GilroyWoff;
+  src: url('./fonts/Gilroy/woff2/Gilroy-Black.woff2');
+  font-weight: 900;
+}
+
+/* ------------------------------------- */
+
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Thin.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-UltraLight.otf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Regular.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Medium.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-SemiBold.otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Bold.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-ExtraBold.otf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: GilroyOtf;
+  src: url('./fonts/Gilroy/otf/Gilroy-Black.otf');
+  font-weight: 900;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+
+  margin: 0px;
+  padding: 0px;
+
+  background-color: black;
+  overflow-x: hidden;
+}
+* {
+  font-family: GilroyOtf, Arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-style: normal;
+  /* letter-spacing: 1px; */
+  color: white;
+
+  font-weight: 700;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased; 
+  text-rendering: geometricPrecision; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-shadow: rgba(0, 0, 0, .1) 0 0 1px;
+  
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  /* user-select: none; */
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: #202020;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
+
+button {
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  user-select: none;
+}
+
